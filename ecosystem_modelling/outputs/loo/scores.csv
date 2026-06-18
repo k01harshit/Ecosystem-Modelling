@@ -1,0 +1,22 @@
+event_name,outcome,severity,loo_score,pred_class,correct
+Burmese Python — Florida Everglades,collapse,0.95,0.5889,collapse,True
+Brown Tree Snake — Guam,collapse,0.98,0.6135,collapse,True
+Nile Perch — Lake Victoria,collapse,0.92,0.6287,collapse,True
+Smallpox — Native American Ecosystems,collapse,0.88,0.4858,collapse,True
+Cane Toad — Australia,disrupted,0.7,0.8294,collapse,False
+Lionfish — Caribbean Reef,disrupted,0.65,0.6228,collapse,False
+Zebra Mussel — Great Lakes,disrupted,0.6,0.3573,disrupted,True
+Rabbit — Australia,disrupted,0.55,0.3155,disrupted,True
+Asian Carp — Mississippi River,disrupted,0.62,0.3977,disrupted,True
+Parthenium Weed — India/Australia,disrupted,0.5,0.3632,disrupted,True
+Emerald Ash Borer — North America,disrupted,0.68,0.2559,stable,False
+European Honeybee — North America,stable,0.1,0.236,stable,True
+Ring-necked Pheasant — North America,stable,0.12,0.2773,stable,True
+Common Carp — Australia (managed),stable,0.18,0.3899,disrupted,False
+Fallow Deer — Australia,stable,0.15,0.1799,stable,True
+Canada Goose — UK,stable,0.2,0.2269,stable,True
+Stoat — New Zealand Forest,collapse,0.85,0.6235,collapse,True
+Chytrid Fungus — Global Amphibians,collapse,0.9,0.4523,collapse,True
+Water Hyacinth — African Lakes,disrupted,0.58,0.3882,disrupted,True
+Red Fox — Australia,disrupted,0.72,0.5775,collapse,False
+Mallard Duck — New Zealand,stable,0.22,0.2638,stable,True

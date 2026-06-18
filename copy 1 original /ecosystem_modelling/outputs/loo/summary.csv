@@ -1,0 +1,11 @@
+metric,value
+spearman_rho,0.7818
+spearman_p,0.0
+posthoc_3class_accuracy,0.7619
+lambda_max_kruskal_p,0.3116
+extinct_frac_ranksum_p,0.0039
+lambda_max_ordered,False
+extinct_frac_ordered,True
+score_ordered,True
+scorer_weights,"[0.28, 0.22, 0.22, 0.1, 0.08, 0.06, 0.03, 0.01]"
+note,fixed weights; no labels used in scoring
