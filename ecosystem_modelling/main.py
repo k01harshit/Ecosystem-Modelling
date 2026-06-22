@@ -39,6 +39,7 @@ from validation.metrics import (
     check_trophic_clustering,
     check_edge_reconstruction,
 )
+from validation.plots import save_all_loo_plots
 from utils.viz import (plot_food_web, plot_lv_trajectory,
                        plot_training_curves, plot_trophic_embedding)
 
@@ -222,9 +223,14 @@ def main():
         logger.warning(f"  Trophic embedding plot failed: {e}")
 
     try:
-        _plot_loo_score_vs_severity(loo_results, args.outdir)
+        save_all_loo_plots(loo_results, args.outdir)
+        logger.info(f"  Saved: {args.outdir}/loo_score_vs_severity.png")
+        logger.info(f"  Saved: {args.outdir}/loo_score_distribution_by_outcome.png")
+        logger.info(f"  Saved: {args.outdir}/loo_mean_scores_by_outcome.png")
+        logger.info(f"  Saved: {args.outdir}/loo_feature_correlations.png")
+        logger.info(f"  Saved: {args.outdir}/loo_feature_vs_score_grid.png")
     except Exception as e:
-        logger.warning(f"  Score plot failed: {e}")
+        logger.warning(f"  LOO plot suite failed: {e}")
 
     # ── Stage 7: Encoder quality metrics ──────────────────────────────────────
     logger.info("\n-- Stage 7: Encoder Quality Metrics --")

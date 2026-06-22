@@ -1,8 +1,8 @@
 metric,value
-spearman_rho,0.7818
-spearman_p,0.0
-posthoc_3class_accuracy,0.7619
-lambda_max_kruskal_p,0.3116
+spearman_rho,0.7571
+spearman_p,0.0001
+posthoc_3class_accuracy,0.619
+lambda_max_kruskal_p,0.3398
 extinct_frac_ranksum_p,0.0039
 lambda_max_ordered,False
 extinct_frac_ordered,True
